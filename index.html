@@ -22,11 +22,11 @@
             <div class="siimple-grid-row">
                 <div class="siimple-grid-col siimple-grid-col--12">
                     <h1>JetData Team</h1>
-                    <p>We are a development team that grew up on several web service to the Higher School of Economics
+                    <p>We are the development team that grew up on several web service to the Higher School of Economics
                         over the past 3 years. We're horrified with current situation and look up for opportunities to
                         job and live outside Russia.</p>
-                    <p>We want to build high load, distributed, fault tolerance web services</p>
-                    <h2>Stack</h2>
+                    <p>We want to build high load, distributed, fault tolerance web services with DDD approach on Scala, Akka cluster & persistent</p>
+                    <h2>Tech stack</h2>
                     <p>Scala, Play, Akka, Vue.js, Python, Postgre, K8S, RabbitMQ, S3, Kafka</p>
                     <h2 id="skills">Team skills</h2>
                     <ul>
@@ -36,31 +36,49 @@
                         <li>Frontend (Vue.js)</li>
                         <li>Backend (REST API, DB, Integration)</li>
                         <li>PostgreSQL with master - slave mode and WAL backups</li>
-                        <li>Testing - (Load testing)</li>
                         <li>Kubernetes with logging and monitoring</li>
                     </ul>
                     <h2 id="projects">Projects</h2>
-                    <h3>2022: Automatization of signing legal agreements process</h3>
+                    <h3>2022: Automatization of online signing legal agreements process</h3>
                     <a class="siimple-link" target="_blank" href="https://dev.jet-data.ru">jetDoc</a>
+                    <p>The system makes it possible to use an electronic signature to sign various agreements between the company and employees.
+                        Corporate electronic document management systems do not have a friendly and simple web interface and require a license
+                        for each external user. To fix this, our system provides users with a simple interface, ensures the execution
+                        of the document signing process and is integrated with EDM</p>
+                    <p>Work on project in progress</p>
                     <h3>2021: Automatization university admission process</h3>
-                    <p>The web service for Higher School of Economics admission process. HSE is the highest-ranking Russian university. In 2021 admission company it was processed more 40 000 applications from
+                    <a class="siimple-link" target="_blank" href="https://enrol.hse.ru">SmartReg</a>
+                    <p>The web service for Higher School of Economics admission process. HSE is the highest-ranking
+                        Russian university. In 2021 admission company it was processed more 40 000 applications from
                         enrollee to bachelor, master, and postgraduate programs.<p>
                     <p>The main requirements were performance, fault tolerance, easy and accessible UI,
                     and low cost of changing application forms. The app also should have been supported in two l
                     anguages and integrated with a lot of internal systems.</p>
-                    <a class="siimple-link" target="_blank" href="https://enrol.hse.ru">SmartReg</a>
                     <h3>2020: Personal digital area for students and employee</h3>
                     <a class="siimple-link" target="_blank" href="https://lk.hse.ru">SmartPoint</a>
+                    <p>Over 300 000 accounts of schoolchildren, students, and employees are registered now in the system.
+                    </p>
+                    <p>Note about system & project:</p>
+                    <ul>
+                        <li>SSO ADFS and provide authorization to several legacy system</li>
+                        <li>Flexible UI based on independent widgets with Role Based Access Control</li>
+                        <li>UI in two languages based on i18n</li>
+                        <li>Over 20 integration with other systems, includes mobile app, ESB, BI</li>
+                        <li>Fast development - 5 months from scratch to production with hiring team</li>
+                    </ul>
                     <h3>2019: Customer area for cloud service 1C</h3>
                     <a class="siimple-link" target="_blank" href="https://online-soft.ru/">OnlineSoft</a>
+                    <p>Customer area with pricing plans, service parameters tuning, billing, users managment, and chat with support</p>
                     <h3>2016: Moscow IT Dept. portal with dashboards</h3>
                     <a class="siimple-link" target="_blank" href="https://cfc.mos.ru/">cfc.mos.ru</a>
+                    <p>Corporate portal with detailed user profile, organization structure, and custom BI system with over 200 widgets.
+                        Complex role based access control. Visualize data in many ways with diagram (Highchar.js, D3.js, HighStock.js)  </p>
                     <h2 id="Solved">Solved tasks</h2>
                     <ul>
                         <li>SSO integration - ADFS, mos.ru, gosuslugi.ru, mts.ru</li>
                         <li>Safety bulk operations  - sending over 100 000 push notification in one time</li>
                         <li>Automatization of signing contract process</li>
-                        <li>Integration (DDD type?) over 100 entity with RabbitMQ</li>
+                        <li>Integration with async synchronization over 100 entities with RabbitMQ</li>
                         <li>JIRA ticket auto classification by machine learning</li>
                         <li>Work with public and private S3 basket</li>
                     </ul>
@@ -69,13 +87,13 @@
                         <li>Widgets based UI with i18n and RBAC</li>
                         <li>DDD, CQRS and event sourcing with Akka cluster and persistent</li>
                         <li>Form generator</li>
-                        <li>Scala for api, Django for quick admin UI</li>
+                        <li>Scala for API, Django for quick admin UI</li>
                     </ul>
                     <h2 id="team">Team</h2>
                     <ul>
-                        <li>Project manager & Head of BA & Team Lead & Architect</li>
+                        <li>Project manager <a class="siimple-link" target="_blank" href="https://www.linkedin.com/in/anton-solovev-62692324/">Anton Solovev</a></li>
                         <li>Two analyst</li>
-                        <li>Head of Backend</li>
+                        <li>Head of Backend <a class="siimple-link" target="_blank" href="https://www.linkedin.com/in/konstantin-amelin-8b7160217/">Konstantin Amelin </a></li>
                         <li>Two middle backend developer</li>
                         <li>Head of Frontend</li>
                         <li>Two middle frontend developer</li>
